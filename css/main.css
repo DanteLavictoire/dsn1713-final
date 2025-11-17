@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+/* @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"); */
+
+:root{
+  --pink: #F1836A;
+  --red: #C31717;
+  --yellow: #FFA613;
+  --burgundy: #5A021A;
+  --white: #ffffff;
+  --black: #000000;
+
+  --primary-color: #C31717;
+  --bs-primary-rgb: 195, 23, 23;
+
+  --bs-secondary-color: #F1836A;
+  --bs-secondary-rgb: 241, 131, 106;
+
+  --bs-warning-color: #FFA613;
+  --bs-warning-rgb: 255, 166, 19;
+
+  --bs-success-color: #5A021A;
+  --bs-success-rgb: 90, 2, 26
+
+}
+
+#hero {
+  height: 800px;
+  background-color: #5A021A;
+  background-image: url(../images/foodshot.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  margin-bottom: 25px;
+}
+
+#navbar-brand, a{
+  font-family: "Notable";
+  text-align: center;
+}
+
+li a{
+  font-family: 'Arya';
+  font-weight: 700;
+  text-align: right;
+}
+
+.hero-btn{
+  color: var(--burgundy);
+  font-size: 4rem;
+  margin-top: 20rem;
+  font-family: "Ubuntu";
+}
+
+#story{
+  background-color: var(--bs-warning-color);
+  padding: 20px;
+  text-align: center;
+  font-family: "Noto Sans Thai";
+  color: var(--black);
+}
+
+#story img{
+  margin: 30px;
+}
+
+#reviews{
+  background-color: var(--bs-warning-color);
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Noto Sans Thai";
+  color: var(--black);
+}
+
+#reviews img{
+  margin: 30px;
+}
+
+.reviews-btn{
+  color: var(--yellow);
+  font-size: 1.5rem;
+  font-family: "Ubuntu";
+  margin-top: 30px;
+  border-radius: 10px
+}
+
+#desert{
+  background-color: var(--bs-warning-color);
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Noto Sans Thai";
+  color: var(--black);
+}
+
+#desert img{
+  margin: 30px;
+}
+
+h1{
+  text-align: center;
+  font-family: "Ubuntu";
+  color: var(--black);
+  padding-bottom: 5px;
+}
+
+h2{
+  text-align: center;
+  font-family: "Arya";
+  font-weight: 400;
+  color: var(--black);
+}
+
+/* h2 ::after{
+font-family: "Material Icons Outlined";
+content: "kid_star";
+} */
+
+
+
+
+
+
+/*
+OUTFIT REUGLAR / BOLD FOR FOOTER
+ARYA FOR LOWER LEVEL HEADINGS, NAV ITEMS
+NOTO FOR BODY
+NOTABLE FOR LOGO
+UBUNTU FOR BIG HEADINGS */
