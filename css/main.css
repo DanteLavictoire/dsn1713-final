@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 /* @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"); */
 
 :root{
@@ -112,6 +113,14 @@ h2{
   text-align: center;
   font-family: "Arya";
   font-weight: 400;
+  color: var(--black);
+}
+
+
+footer{
+  padding-top: 20px;
+  font-family: "Outfit";
+  font-weight: 300;
   color: var(--black);
 }
 
