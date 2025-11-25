@@ -82,7 +82,7 @@ li a{
 }
 
 .reviews-btn{
-  color: var(--yellow);
+  color: var(--bs-warning-color);
   font-size: 1.5rem;
   font-family: "Ubuntu";
   margin-top: 30px;
