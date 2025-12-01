@@ -56,6 +56,10 @@ li a{
   font-family: "Ubuntu";
 }
 
+#home{
+  background-color: var(--bs-warning-color);
+}
+
 #story{
   background-color: var(--bs-warning-color);
   padding: 20px;
@@ -102,6 +106,10 @@ li a{
   margin: 30px;
 }
 
+#about{
+  margin-top: 50px;
+}
+
 #franchise{
   background-image: url(../images/outside_photo_of_diner.jpg);
   height: 500px;
@@ -131,8 +139,30 @@ li a{
   font-size: 2rem;
   margin-bottom: 2rem;
   font-family: "Ubuntu";
-  
 }
+
+#goals{
+ background-image: url(../images/kid-plate.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.goals-box{
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 300px;
+  height: auto;
+  padding: 25px;
+  justify-content: center;
+}
+
 
 h1{
   text-align: center;
