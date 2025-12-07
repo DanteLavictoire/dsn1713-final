@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
 
@@ -46,9 +47,12 @@
     <main id="home">
       <section id="hero">
         <div class="container-lg"> 
+          <div data-aos="fade-down"
+          data-aos-duration="2000">
             <div class="text-center">
               <button class="btn bg-warning hero-btn">Specials</button>
             </div>
+          </div>
         </div>
       </section>
 
@@ -59,7 +63,10 @@
             <div class="col-lg">
               <h1>Our Story</h1>
               <p>Rockin’ Johnny’s Diner™ opened its first location in June 1991 at Westgate Shopping Centre in Ottawa, fulfilling a decade-long dream to bring back the fun, value, and warmth of classic family dining. Inspired by the golden days of jukeboxes, Marilyn Monroe, and Elvis, the diner quickly built a loyal following. Its success led to a second location in Kanata, later relocated to 486 Hazeldean Rd in 2004. Over 30 years later, Rockin’ Johnny’s remains a beloved local favorite, built on tradition, community, and loyal customers.</p>
-              <img src="images/staff.jpg" class="img-fluid">
+              <div data-aos="flip-up"
+          data-aos-duration="1000">
+                <img src="images/staff.jpg" class="img-fluid">
+              </div>
             </div>
 
 
@@ -69,10 +76,12 @@
               <p>A great place if you’re looking for a good diner! Their atmosphere and decorations really give you a whole throw back! It is one of our common spots we like to go for lunch.</p>
               <h2>Gregg</h2> 
               <p>We love the Big Johnny breakfast! Last week the owner gave us a piece of teramisu on the house. Very hospitable.</p>
-              <div>
+              <div data-aos="zoom-in"
+          data-aos-duration="2000">
                 <button class="btn bg-success reviews-btn">Read More</button>
               </div>
-              <div>
+              <div data-aos="flip-up"
+          data-aos-duration="2000">
                 <img src="images/family.jpg" class="img-fluid">
               </div>
             </div>
@@ -81,7 +90,8 @@
             <div class="col-lg">   
               <h1>Desert Corner</h1>
               <p>Step into Rockin’ Johnny’s Dessert Corner — where nostalgia and indulgence come together in every bite. Enjoy thick milkshakes, golden waffles with ice cream, and homemade pies baked fresh daily. It’s the perfect spot to end a meal, share a sundae, or savor a sweet moment with friends and family. With rich flavors, retro charm, and signature Rockin’ Johnny’s warmth, dessert isn’t just the finale — it’s the highlight of your visit.</p>
-              <div>
+              <div data-aos="flip-up"
+          data-aos-duration="3000">
                 <img src="images/desert.jpg" class="img-fluid">
               </div>
             </div>
@@ -112,5 +122,7 @@
 
       
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
   </body>
 </html>
